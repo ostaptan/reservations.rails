@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails reservations-rails: development" uuid="951cf66b-6379-43b2-84b8-25cc7865462d">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails reservations-rails: test" uuid="aa6e81fe-b1ab-47e3-bb23-99cc011ce260">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
