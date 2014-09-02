@@ -55,18 +55,4 @@ describe Reservation do
     end
 
   end
-
-
-#   it "fails to create/update reservation of booked table" do
-#     p = { table_id: 10, start_date: DateTime.new(2001, 2, 3, 1), end_date: DateTime.new(2001, 2, 3, 3) }
-#     update_record = App::Models::Reservation.create({table_id: 10, start_date: DateTime.new(2001, 2, 3, 4), end_date: DateTime.new(2001, 2, 3, 5)})
-#     expect(App::Models::Reservation.new.safe_create(p).first).to eq 500
-#     expect(update_record.safe_update(p).first).to eq 500
-#     p = { table_id: 10, start_date: DateTime.new(2001, 2, 3, 3), end_date: DateTime.new(2001, 2, 3, 3, 40) }
-#     expect(App::Models::Reservation.new.safe_create(p).first).to eq 500
-#     expect(update_record.safe_update(p).first).to eq 500
-#     p = { table_id: 10, start_date: DateTime.new(2001, 2, 3, 3), end_date: DateTime.new(2001, 2, 3, 6) }
-#     expect(App::Models::Reservation.new.safe_create(p).first).to eq 500
-#     expect(update_record.safe_update(p).first).to eq 500
-#   end
 end
