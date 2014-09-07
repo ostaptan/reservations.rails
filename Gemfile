@@ -25,9 +25,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'pry'
 
-group :test do
+group :test, :development do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password
