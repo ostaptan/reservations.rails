@@ -2,12 +2,12 @@ require 'rails_helper'
 
 describe Reservation, type: :model do
   before do
-    build(:default_reservation).save
+    create(:default_reservation)
   end
 
   #success way
   it "creates reservarion successfully" do
-    expect(build(:valid_reservation).save).to be_truthy
+    expect(create(:valid_reservation)).to be_truthy
   end
 
   it "updates reservation successfully" do
